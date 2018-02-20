@@ -1,3 +1,5 @@
 # About RYT's Website
 
-Let's build a site - nothing fancy, just some HTML, CSS, and some JS.
+It's my personal site - made by me, for me.
+
+Special thanks to the Bootstrap guys because I suck at HTML/CSS.
