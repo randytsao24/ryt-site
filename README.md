@@ -1,3 +1,3 @@
-## RYT's Website
+# About RYT's Website
 
-What the heck, why not.
+Let's build a site - nothing fancy, just some HTML, CSS, and some JS.
