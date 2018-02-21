@@ -1,0 +1,19 @@
+{
+  "name": "ryt-site",
+  "version": "1.0.0",
+  "description": "RYT's site.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/randytsao24/ryts-site.git"
+  },
+  "author": "Randy Tsao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/randytsao24/ryts-site/issues"
+  },
+  "homepage": "https://github.com/randytsao24/ryts-site#readme"
+}

@@ -1,0 +1,18 @@
+/* styles/font.css */
+
+.link-override {
+  font-weight: normal;
+  font-style: normal;
+}
+
+.italicized {
+  font-style: italic;
+}
+
+.bolded {
+  font-weight: bold;
+}
+
+.caption-font {
+  font: caption;
+}
