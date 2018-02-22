@@ -5,7 +5,7 @@
   <head>
     <meta charset='UTF-8'/>
     <title>Randy Yuanyuan Tsao</title>
-    <link rel='stylesheet' href='styles/images.css'/>
+    <link rel='stylesheet' href='styles/work.css'/>
     <link rel='stylesheet' href='styles/font.css'/>
     <link rel='stylesheet' href='styles/index.css'/>
   </head>
@@ -31,13 +31,32 @@
 
     <!-- Pictures -->
     <div class='body-container'>
-      <div class='body-text-container'>
-        <p class='body-text'>A sample of my work!</p>
-        <h2 class='body-title'>Prioracle</h2>
-        <p class='body-text'>
-          Uses machine learning and web scraping algorithms to determine a fair price to sell a product at. Frontend was developed entirely in React-Native and deployed with Expo.
-        </p>
-        <h2 class='body-title'>Drum Macheen</h2>
+      <div class='project-container'>
+        <div class='body-text-container'>
+          <h2 class='body-title'>Prioracle</h2>
+          <p class='body-text'>
+            Mobile app developed with fellow Fullstack Academy students. Prioracle utilizes machine learning and web scraping algorithms to analyze a product listing and determine a fair price to sell a product at. Frontend was developed with React-Native and deployed with Expo. Backend utilized the Koa HTTP framework and Sequelize for communicating with our Postgres database and was deployed with Heroku.
+          </p>
+          <p class='body-text'>
+            Originally, Prioracle was the brainchild of Arnold Salas, a brilliant classmate of mine. As of February 2017, Arnold is finishing up his PhD in machine learning at the University of Oxford. The idea for Prioracle began when kaggle.io began a new data science competition sponsored by Mercari (the Japanese eBay, or so I've been told).
+          </p>
+          <p class='body-text'>
+            Mercari is especially interested in generating accurate price points just by parsing the contents of a product listing. We thought, why not use such a feature to develop a standalone mobile app? Thanks to the datasets provided by Mercari -- over 1.5 million entries in the training data set -- Arnold was able to optimize and develop a machine learning algorithm with an error rate of 40% in less than a week.
+          </p>
+          <p class='body-text'>
+            My role in this project was to mainly handle the frontend. We settled on React-Native mostly because of its cross-platform functionality -- it was particularly interesting to test simultaneously on a physical Android device and an iOS simulator. It was frustrating at first to be limited to inline CSS styling, but I got over it pretty quickly. Additionally, I made extensive use of the <a class='project-link' href='https://react-native-training.github.io/react-native-elements/'>React Native Elements</a> UI toolkit.
+          </p>
+          <p class='body-text'>
+            Having some minor experience in Android app development, I found React-Native to be a bit clunky in comparison to native mobile development. But I have to admit that it's an awesome library, considering that you're writing code in JS that will be deployed to both iOS and Android platforms at the same time.
+          </p>
+          <p class='body-text'>
+            Here's a link to the <a class='project-link' href='https://github.com/randytsao24/prioracle'>repo</a>.
+          </p>
+        </div>
+        <div class='project-image-container'>
+          <img class='project-image' src='images/prioracle-login.png' />
+          <img class='project-image' src='images/prioracle-listing.png' />
+        </div>
       </div>
     </div>
 

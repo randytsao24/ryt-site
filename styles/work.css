@@ -3,8 +3,28 @@
 /* Project Styling */
 
 .project-container {
+  width: 100%;
   display: flex;
   flex-direction: row;
   align-items: space-around;
   justify-content: center;
+}
+
+.project-image-container {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.project-image {
+  border: 1px solid #000;
+  flex: 1;
+  margin: 10px;
+  max-width: 45%;
+	height:auto;
+}
+
+.project-link {
+  color: #000;
 }
