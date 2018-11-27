@@ -1,5 +1,5 @@
 # About RYT's Website
 
-It's my personal site - made by me, for me.
+Personal site, written in purely HTML and CSS. 
 
-Special thanks to the Bootstrap guys because I suck at HTML/CSS.
+Deployed with Google App Engine - check out [this link](https://cloud.google.com/appengine/docs/standard/python/getting-started/hosting-a-static-website) for more information.
