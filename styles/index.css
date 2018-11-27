@@ -59,23 +59,62 @@ html, body {
   margin: 5px 20px;
 }
 
+.title-container {
+  padding: 8px;
+  display: flex;
+  flex-direction: row;
+  border: 4px white dotted;
+}
+
+.title-container:hover {
+  border-color: black;
+}
+
+.title-word {
+  display: flex;
+  flex-direction: row;
+  margin: 0px 6px;
+}
+
+.title-text {
+  padding-right: 4px;
+  font-size: 36px;
+  font-weight: 300;
+}
+
+.title-text:hover {
+  color: black;
+}
+
 /* Body Styling */
 
 .body-container {
   background-color: #cbdbd4;
-  height: 80%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
 }
 
-.body-text-container {
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
+.body-text-container-right {
+  border: 1px black solid;
+  width: 45%;
+  max-height: 80%;
+  margin-left: auto;
+  margin-right: 3%;
+  margin-top: 2%;
+  background: white;
+}
+
+.body-text-container-left {
+  border: 1px black solid;
+  width: 45%;
+  max-height: 80%;
+  margin-right: auto;
+  margin-left: 3%;
+  margin-top: 2%;
+  background: white;
 }
 
 .body-title {
@@ -86,7 +125,6 @@ html, body {
 }
 
 .body-text {
-  flex: 1;
   margin: 10px;
   height: 100%;
   font: caption;
@@ -128,6 +166,8 @@ html, body {
   display: flex;
   height: 75%;
   margin: 10px;
+  border: 1px black dotted;
+  border-radius: 80px;
 }
 
 .footer-image {
